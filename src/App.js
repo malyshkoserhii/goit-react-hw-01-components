@@ -1,8 +1,10 @@
 import Profile from './components/Profile/Profile';
-import StatisticalTitle from './components/StatisticalTitle/StatisticalTitle';
-import StatisticalList from './components/StatisticalList/StatisticalList';
+import StatisticalTitle from './components/Statistic/StatisticalTitle/StatisticalTitle';
+import StatisticalList from './components/Statistic/StatisticalList/StatisticalList';
+import FriendList from './components/Friend/FriendList/FriendList';
 import user from './data/user.json';
 import statisticalData from './data/statistical-data.json';
+import friends from './data/friends.json';
 
 const App = () => {
   return (
@@ -20,6 +22,9 @@ const App = () => {
         <StatisticalTitle title="Upload Stats">
           <StatisticalList stats={statisticalData} />
         </StatisticalTitle>
+      </div>
+      <div>
+        <FriendList friends={friends} />
       </div>
     </>
   );
