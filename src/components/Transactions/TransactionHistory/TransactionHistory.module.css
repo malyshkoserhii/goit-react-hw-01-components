@@ -1,0 +1,15 @@
+.transactionHistory {
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid rgb(177, 164, 164);
+  box-shadow: 1px 1px 0px 0px rgb(177, 164, 164);
+}
+
+.headStringBox {
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background-color: rgb(68, 190, 194);
+}

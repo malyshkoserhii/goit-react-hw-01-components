@@ -1,0 +1,13 @@
+.statistics {
+  margin: 0 auto 60px;
+  width: 280px;
+  border: 1px solid black;
+  line-height: 78px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}

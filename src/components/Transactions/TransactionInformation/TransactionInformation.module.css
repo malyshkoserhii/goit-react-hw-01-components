@@ -1,0 +1,11 @@
+.currencyInfoString {
+  font-size: 16px;
+  text-align: center;
+  line-height: 40px;
+  color: rgb(124, 119, 119);
+  border: 1px solid rgb(95, 93, 93);
+}
+
+.currencyInfoString:nth-of-type(2n) {
+  background-color: rgb(226, 226, 226);
+}

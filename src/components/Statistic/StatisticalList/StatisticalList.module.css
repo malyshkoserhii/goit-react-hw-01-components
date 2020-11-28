@@ -1,0 +1,9 @@
+.statList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statList > li {
+  flex-basis: 70px;
+  padding: 15px;
+}
