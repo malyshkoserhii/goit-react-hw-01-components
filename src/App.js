@@ -3,7 +3,7 @@ import Profile from './components/Profile/Profile';
 import StatisticalTitle from './components/Statistic/StatisticalTitle/StatisticalTitle';
 import StatisticalList from './components/Statistic/StatisticalList/StatisticalList';
 import FriendList from './components/Friend/FriendList/FriendList';
-import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import TransactionHistory from './components/Transactions/TransactionHistory/TransactionHistory';
 import user from './data/user.json';
 import friends from './data/friends.json';
 import statisticalData from './data/statistical-data.json';
@@ -22,12 +22,8 @@ const App = () => {
       <StatisticalTitle title="Upload Stats">
         <StatisticalList stats={statisticalData} />
       </StatisticalTitle>
-      <div>
-        <FriendList friends={friends} />
-      </div>
-      <div>
-        <TransactionHistory items={transactions} />
-      </div>
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </Container>
   );
 };

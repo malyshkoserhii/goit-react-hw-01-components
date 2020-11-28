@@ -1,8 +1,9 @@
+import styles from './TransactionInformation.module.css';
 import PropTypes from 'prop-types';
 
 const TransactionInformation = ({ type, amount, currency }) => {
   return (
-    <tr>
+    <tr className={styles.currencyInfoString}>
       <td>{type}</td>
       <td>{amount}</td>
       <td>{currency}</td>
