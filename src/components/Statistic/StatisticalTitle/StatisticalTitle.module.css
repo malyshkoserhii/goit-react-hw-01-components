@@ -1,0 +1,11 @@
+.statistics {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}

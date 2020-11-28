@@ -1,9 +1,10 @@
 import StatisticalInformation from '../StatisticalInformation/StatisticalInformation';
+import styles from './StatisticalList.module.css';
 import PropTypes from 'prop-types';
 
 const StatisticalList = ({ stats }) => {
   return (
-    <ul>
+    <ul className={styles.statList}>
       {stats.map(el => (
         <li key={el.id}>
           <StatisticalInformation label={el.label} percentage={el.percentage} />

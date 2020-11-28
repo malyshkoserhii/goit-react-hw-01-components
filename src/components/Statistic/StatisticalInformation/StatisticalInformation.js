@@ -1,10 +1,11 @@
+import styles from './StatisticalInformation.module.css';
 import PropTypes from 'prop-types';
 
 const StatisticalInformation = ({ label, percentage }) => {
   return (
     <>
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}</span>
+      <span className={styles.label}>{label}</span>
+      <span className={styles.percentage}>{percentage}%</span>
     </>
   );
 };
